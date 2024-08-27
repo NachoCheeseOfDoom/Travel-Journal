@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import "./location.css";
 export const LocationCard = (props) => {
   return (
