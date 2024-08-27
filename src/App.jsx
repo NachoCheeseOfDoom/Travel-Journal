@@ -3,7 +3,6 @@ import Data from "./Data.js";
 import "./App.css";
 
 function App() {
-  console.log(Data);
   const cardData = Data.map((location) => {
     return <LocationCard key={location.id} {...location} />;
   });

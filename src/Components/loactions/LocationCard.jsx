@@ -1,6 +1,5 @@
 import "./location.css";
 export const LocationCard = (props) => {
-  console.log(props.id);
   return (
     <div className="card-container">
       <img
